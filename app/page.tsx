@@ -1,4 +1,5 @@
 import Counts from "@/features/counts/components/counts";
+import Todo from "@/features/counts/components/todo";
 
 export default function Home() {
   return (
@@ -6,6 +7,9 @@ export default function Home() {
       <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
         <h1 className="text-4xl font-bold">Hello World</h1>
         <Counts />
+
+        <h1>todo</h1>
+        <Todo/>
       </main>
     </div>
   );
