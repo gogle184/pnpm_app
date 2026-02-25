@@ -1,5 +1,6 @@
 import Counts from "@/features/counts/components/counts";
 import Todo from "@/features/counts/components/todo";
+import InputTodo from "@/features/counts/components/input";
 
 export default function Home() {
   return (
@@ -10,6 +11,9 @@ export default function Home() {
 
         <h1>todo</h1>
         <Todo/>
+
+        <h1>todoadd</h1>
+        <InputTodo />
       </main>
     </div>
   );
